@@ -1,0 +1,214 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Nunito Sans", Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.25em;
+  font-weight: 300;
+}
+
+p,
+ul li,
+ol li {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+a:link,
+a:visited,
+a:hover {
+  color: #333;
+  text-decoration: none;
+  border: none;
+  transition: all .3s linear;
+}
+
+a:hover {
+  color: #aaa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 2.5em 0;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 2em 0 1em 0;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  margin: 2.5em 0;
+}
+
+h6 {
+  font-size: 1.2em;
+  line-height: 1.3em;
+  margin: 1em 0 .5em 0;
+  letter-spacing: .1em;
+  margin-bottom: 1em;
+  text-align: center;
+  opacity: 0.30;
+  transition: opacity 3s linear;
+}
+
+h6:hover {
+  opacity: 1;
+  transition: all 2s ease;
+}
+
+h6 strong {
+  font-weight: 400;
+}
+
+img,
+img a {
+  border: 0;
+  padding: 3px;
+}
+
+header .title a#tagline,
+header .byline h1 {
+  text-transform: lowercase;
+  color: #aaa;
+}
+
+header .title h1 a {
+  font-weight: 400;
+}
+
+.post h4 {
+  margin-bottom: 2.5em;
+  font-size: 14px;
+  color: #aaa;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.post h4 a,
+.post h4 a:visited {
+  color: #aaa;
+  border-bottom: #fff;
+}
+
+.post h4 a:hover {
+  color: #333;
+}
+
+.post strong {
+  font-weight: 400;
+}
+
+.post a:link,
+.post a:visited {
+  text-decoration: none;
+  color: #333;
+  border-bottom: 2px solid #e2e2e2;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.post a:hover {
+  border-color: #666666;
+}
+
+.post ul {
+  list-style-type: disc;
+  padding: .1em .0 0 1.1em;
+  margin-top: .5em;
+}
+
+.post ol {
+  list-style-type: decimal;
+  padding: .1em 0 0 1.2em;
+  margin-top: .5em;
+}
+
+.post blockquote {
+  border-left: 2px solid #e2e2e2;
+  margin: 2.5em 0;
+  padding: .8em 1.5em .2em 1.5em;
+}
+
+.post blockquote cite {
+  color: #aaa;
+  font-style: none;
+}
+
+.container {
+  overflow: hidden;
+  max-width: 32em;
+  margin: 0 auto;
+  padding: 0 2.5em;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    max-width: 70em;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    overflow: hidden;
+  }
+
+  h2 {
+    font-size: 2em;
+    margin: 2em 0 2em 0;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  h2, h3, h3, h5, h6 {
+    text-align:center;
+  }
+}
+
+@media print {
+  body {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    background: white;
+    color: black;
+    margin: 10;
+    width: auto;
+  }
+
+  .container,
+  .wide-container {
+    display: block;
+  }
+
+  header .header-nav,
+  .all_posts,
+  .subscribe,
+  footer {
+    display: none;
+  }
+}
