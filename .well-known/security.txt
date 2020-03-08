@@ -1,0 +1,3 @@
+Contact: sterling.hamilton@gmail.com
+Preferred-Languages: en, ru
+Canonical: https://sterlinghamilton.com/.well-known/security.txt

@@ -1,0 +1,21 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Sterling Hamilton -- Subject Matter Expert on Sterling Hamilton -- @Sterlo
+
+# THANKS
+
+    Rob Larsen
+    Mathias Bynens
+    Cătălin Mariș
+    Hans Christian Reinl
+    Nicolas Gallagher
+    Paul Irish
+    Divya Manian
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    HTML5 Boilerplate, Normalize.css
